@@ -231,7 +231,7 @@ img {
   color: var(--font-accent-secodary-color);
 }
 
-.section-wrapper {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -270,7 +270,7 @@ img {
   line-height: 1.714285;
 }
 
-.our-work.section-wrapper {
+.our-work.section {
   padding-top: 0;
 }
 
