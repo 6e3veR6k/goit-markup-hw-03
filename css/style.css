@@ -7,6 +7,7 @@
   --font-accent-secodary-color: #212121;
   --background-dark-color: #2f303a;
   --background-light-color: #f5f4fa;
+  --header-border-bottom: #ececec;
   --main-font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --accent-font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --main-footer-color: var(--black-color);
@@ -337,7 +338,9 @@ img {
   margin-bottom: 10px;
 }
 
-
+.portfolio-header {
+  border-bottom: solid 1px var(--header-border-bottom);
+}
 
 .portfolio-nav-list {
   flex-wrap: wrap;
